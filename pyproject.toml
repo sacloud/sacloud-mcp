@@ -1,5 +1,5 @@
 [project]
-name = "mcp-sacloud"
+name = "sacloud-mcp"
 version = "0.1.0"
 description = "MCP Server for sakura cloud"
 authors = [{name = "SAKURA internet Inc.", email = "oss-dev@sakura.ad.jp"}]

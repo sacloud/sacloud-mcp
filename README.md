@@ -1,8 +1,8 @@
-# sacloud/mcp-sacloud
+# sacloud/sacloud-mcp
 
 ## 概要
 
-sacloud/mcp-sacloudはさくらのクラウド向けMCPサーバです。
+sacloud/sacloud-mcpはさくらのクラウド向けMCPサーバです。
 
 ## 開発環境の構築
 
@@ -11,7 +11,7 @@ sacloud/mcp-sacloudはさくらのクラウド向けMCPサーバです。
 ### プロジェクトのクローン
 
 ```
-git clone https://github.com/sacloud/mcp-sacloud.git
+git clone https://github.com/sacloud/sacloud-mcp.git
 ```
 
 ### uvのインストール
@@ -62,7 +62,7 @@ claude desktopの設定ファイルに以下を追記する。
 <<>>で示された要素について、以下を参考に適宜置き換える。
 
 - MCPサーバーのルートディレクトリ
-  - 例: `/Users/user/Source/mcp-sacloud`
+  - 例: `/Users/user/Source/sacloud-mcp`
 - 環境変数
   - 使用する機能に応じて環境変数を設定。
     - さくらのクラウドのリソースにアクセスする場合、[さくらのクラウドのAPIキー](https://manual.sakura.ad.jp/cloud/api/apikey.html)を参照して置き換える。
@@ -94,5 +94,5 @@ uv run pytest
 
 ## License
 
-`mcp-sacloud` Copyright (C) 2025- The sacloud/mcp-sacloud authors.
+`sacloud-mcp` Copyright (C) 2025- The sacloud/sacloud-mcp authors.
 This project is published under [Apache 2.0 License](LICENSE).
