@@ -1,0 +1,13 @@
+pre-commit:
+  commands:
+    uv-lock:
+      glob: "pyproject.toml"
+      run: uv lock
+    ruff:
+      glob: "*.py"
+      run: uv run ruff check --fix {staged_files}
+      stage_fixed: true
+    ruff-format:
+      glob: "*.py"
+      run: uv run ruff format {staged_files}
+      stage_fixed: true
