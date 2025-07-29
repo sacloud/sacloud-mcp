@@ -1,0 +1,1379 @@
+{
+  "さくらのクラウド　チュートリアル": [
+    "https://manual.sakura.ad.jp/cloud/tutorial/index.html",
+    {
+      "【Linux】レスキューモードを用いたfsck実施手順": [
+        "https://manual.sakura.ad.jp/cloud/../server/os-rescue.html",
+        {}
+      ]
+    }
+  ],
+  "デザインパターン": [
+    "https://manual.sakura.ad.jp/cloud/design-pattern/design-pattern.html",
+    {
+      "活用TIPS": [
+        "https://manual.sakura.ad.jp/cloud/tips/index.html",
+        {}
+      ],
+      "活用TIPS(マーケットプレイス)": [
+        "https://manual.sakura.ad.jp/cloud/tips_mkt/index.html",
+        {}
+      ],
+      "構成例": [
+        "https://manual.sakura.ad.jp/cloud/example.html",
+        {}
+      ],
+      "急激なアクセスにも対応できるWebサイトの構築": [
+        "https://manual.sakura.ad.jp/cloud/robust-website.html",
+        {}
+      ]
+    }
+  ],
+  "コンピューティング": [
+    "https://manual.sakura.ad.jp/cloud/product-computing.html",
+    {
+      "サーバの基本操作": [
+        "https://manual.sakura.ad.jp/cloud/product-server-basic-function.html",
+        {
+          "サーバの作成・削除": [
+            "https://manual.sakura.ad.jp/cloud/server/create-delete.html",
+            {}
+          ],
+          "サーバの詳細情報": [
+            "https://manual.sakura.ad.jp/cloud/server/detail.html",
+            {}
+          ],
+          "サーバのプラン変更": [
+            "https://manual.sakura.ad.jp/cloud/server/plan-update.html",
+            {}
+          ],
+          "サーバ起動先ホスト変更": [
+            "https://manual.sakura.ad.jp/cloud/server/vm-host-migration.html",
+            {}
+          ],
+          "電源操作": [
+            "https://manual.sakura.ad.jp/cloud/server/power.html",
+            {}
+          ],
+          "コンソール": [
+            "https://manual.sakura.ad.jp/cloud/server/console.html",
+            {}
+          ],
+          "NICの作成・削除・接続先編集": [
+            "https://manual.sakura.ad.jp/cloud/server/nic.html",
+            {}
+          ],
+          "特殊タグ一覧": [
+            "https://manual.sakura.ad.jp/cloud/server/special-tags.html",
+            {}
+          ],
+          "クローン": [
+            "https://manual.sakura.ad.jp/cloud/server/server-clone.html",
+            {}
+          ],
+          "セキュリティ・オプション": [
+            "https://manual.sakura.ad.jp/cloud/server/security.html",
+            {}
+          ],
+          "DNS逆引きレコードの設定": [
+            "https://manual.sakura.ad.jp/cloud/server/reverse-hostname.html",
+            {}
+          ],
+          "DHCP": [
+            "https://manual.sakura.ad.jp/cloud/server/dhcp.html",
+            {}
+          ],
+          "cloud-init": [
+            "https://manual.sakura.ad.jp/cloud/server/cloud-init.html",
+            {}
+          ],
+          "Red Hat® Enterprise Linux® Server": [
+            "https://manual.sakura.ad.jp/cloud/server/os-packages/rhel-plan/index.html",
+            {}
+          ],
+          "高火力 VRT(GPU)プラン": [
+            "https://manual.sakura.ad.jp/cloud/server/gpu-plan.html",
+            {}
+          ],
+          "「さくらのVPS」からのマイグレーション": [
+            "https://manual.sakura.ad.jp/cloud/server/vps-migration.html",
+            {}
+          ],
+          "Meltdown脆弱性対応の無効化設定": [
+            "https://manual.sakura.ad.jp/cloud/server/no-pti.html",
+            {}
+          ]
+        }
+      ],
+      "高火力 DOK": [
+        "https://manual.sakura.ad.jp/cloud/manual-koukaryoku-container.html",
+        {
+          "はじめに": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/getting-started.html",
+            {}
+          ],
+          "料金体系について": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/pricing.html",
+            {}
+          ],
+          "プリペイドと残額アラートについて": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/prepaid-alert.html",
+            {}
+          ],
+          "用語集": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/glossary.html",
+            {}
+          ],
+          "タスクの実行方法": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/running-tasks.html",
+            {}
+          ],
+          "ノートブックの利用方法": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/how-to-use-jupyter.html",
+            {}
+          ],
+          "外部からの接続方法": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/listening-port.html",
+            {}
+          ],
+          "プライベートレジストリーの使用方法": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/using-private-registries.html",
+            {}
+          ],
+          "GPUの使用方法": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/using-gpu.html",
+            {}
+          ],
+          "APIについて": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/api.html",
+            {}
+          ],
+          "仕様": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/specification.html",
+            {}
+          ],
+          "お役立ち情報": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/knowledge.html",
+            {}
+          ],
+          "よくある質問と回答": [
+            "https://manual.sakura.ad.jp/cloud/koukaryoku-container/faqs.html",
+            {}
+          ]
+        }
+      ],
+      "サーバ コア専有プラン（Intel® Xeon® Processor）": [
+        "https://manual.sakura.ad.jp/cloud/server/dedicated-cpu-plan.html",
+        {}
+      ],
+      "サーバ コア専有プラン（AMD EPYC™ 7003 Series Processor）": [
+        "https://manual.sakura.ad.jp/cloud/server/amd-epyc-7003-dedicated-cpu-plan.html",
+        {}
+      ],
+      "サーバ コア専有プラン（AMD EPYC™ 9004 Series Processor）": [
+        "https://manual.sakura.ad.jp/cloud/server/amd-epyc-9004-dedicated-cpu-plan.html",
+        {}
+      ],
+      "専有ホスト": [
+        "https://manual.sakura.ad.jp/cloud/server/private-host.html",
+        {}
+      ],
+      "AppRun β版": [
+        "https://manual.sakura.ad.jp/cloud/manual-sakura-apprun.html",
+        {
+          "はじめに": [
+            "https://manual.sakura.ad.jp/cloud/apprun/about.html",
+            {}
+          ],
+          "技術概要": [
+            "https://manual.sakura.ad.jp/cloud/apprun/glossary.html",
+            {}
+          ],
+          "クイックスタート": [
+            "https://manual.sakura.ad.jp/cloud/apprun/getting_started.html",
+            {}
+          ],
+          "コントロールパネル操作ガイド": [
+            "https://manual.sakura.ad.jp/cloud/apprun/operation.html",
+            {}
+          ],
+          "APIリファレンス": [
+            "https://manual.sakura.ad.jp/cloud/apprun/api.html",
+            {}
+          ],
+          "サポート": [
+            "https://manual.sakura.ad.jp/cloud/apprun/faq.html",
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "ストレージとデータ": [
+    "https://manual.sakura.ad.jp/cloud/product-storage-and-data.html",
+    {
+      "オブジェクトストレージ": [
+        "https://manual.sakura.ad.jp/cloud/manual-objectstorage.html",
+        {
+          "オブジェクトストレージ サービス基本情報": [
+            "https://manual.sakura.ad.jp/cloud/objectstorage/about.html",
+            {}
+          ],
+          "オブジェクトストレージのAPI": [
+            "https://manual.sakura.ad.jp/cloud/objectstorage/api.html",
+            {}
+          ],
+          "オブジェクトストレージ よくある質問と回答": [
+            "https://manual.sakura.ad.jp/cloud/objectstorage/faq.html",
+            {}
+          ]
+        }
+      ],
+      "ディスクの作成/削除/変更": [
+        "https://manual.sakura.ad.jp/cloud/storage/disk.html",
+        {}
+      ],
+      "ディスク暗号化機能": [
+        "https://manual.sakura.ad.jp/cloud/storage/disk-encryption.html",
+        {}
+      ],
+      "アーカイブ": [
+        "https://manual.sakura.ad.jp/cloud/storage/archive.html",
+        {}
+      ],
+      "ISOイメージ": [
+        "https://manual.sakura.ad.jp/cloud/storage/isoimage.html",
+        {}
+      ],
+      "ディスク修正": [
+        "https://manual.sakura.ad.jp/cloud/storage/modifydisk/index.html",
+        {
+          "ディスク修正とは": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "パーティションサイズの拡張": [
+            "https://manual.sakura.ad.jp/cloud/resize-partition.html",
+            {}
+          ],
+          "Windows ディスク修正": [
+            "https://manual.sakura.ad.jp/cloud/windows.html",
+            {}
+          ]
+        }
+      ],
+      "ディスク移行": [
+        "https://manual.sakura.ad.jp/cloud/storage/disk-migration.html",
+        {}
+      ],
+      "NFSアプライアンス": [
+        "https://manual.sakura.ad.jp/cloud/appliance/nfs/index.html",
+        {}
+      ]
+    }
+  ],
+  "データベース": [
+    "https://manual.sakura.ad.jp/cloud/appliance/database/index.html",
+    {
+      "アプライアンス「データベース」": [
+        "https://manual.sakura.ad.jp/cloud/about.html",
+        {}
+      ],
+      "MariaDB": [
+        "https://manual.sakura.ad.jp/cloud/mariadb.html",
+        {}
+      ],
+      "PostgreSQL": [
+        "https://manual.sakura.ad.jp/cloud/postgresql.html",
+        {}
+      ],
+      "クローン": [
+        "https://manual.sakura.ad.jp/cloud/database-clone.html",
+        {}
+      ],
+      "リードレプリカ": [
+        "https://manual.sakura.ad.jp/cloud/database-readreplica.html",
+        {}
+      ],
+      "冗長化オプション機能": [
+        "https://manual.sakura.ad.jp/cloud/database-redundancy.html",
+        {}
+      ],
+      "メンテナンス": [
+        "https://manual.sakura.ad.jp/cloud/maintenance.html",
+        {}
+      ],
+      "syslog転送機能": [
+        "https://manual.sakura.ad.jp/cloud/syslog.html",
+        {}
+      ],
+      "データベースアプライアンス ディスク暗号化機能β": [
+        "https://manual.sakura.ad.jp/cloud/database-disk-encryption.html",
+        {}
+      ],
+      "NoSQL": [
+        "https://manual.sakura.ad.jp/cloud/../nosql/index.html",
+        {}
+      ]
+    }
+  ],
+  "ネットワーク": [
+    "https://manual.sakura.ad.jp/cloud/product-network.html",
+    {
+      "ウェブアクセラレータ(CDN)": [
+        "https://manual.sakura.ad.jp/cloud/manual-webaccel.html",
+        {
+          "ウェブアクセラレータとは (概要・仕様)": [
+            "https://manual.sakura.ad.jp/cloud/webaccel/webaccel.html",
+            {}
+          ],
+          "ウェブアクセラレータ マニュアル": [
+            "https://manual.sakura.ad.jp/cloud/webaccel/manual/index.html",
+            {}
+          ],
+          "ウェブアクセラレータ 公開API": [
+            "https://manual.sakura.ad.jp/cloud/webaccel/api.html",
+            {}
+          ]
+        }
+      ],
+      "エンハンスドロードバランサ": [
+        "https://manual.sakura.ad.jp/cloud/appliance/enhanced-lb/index.html",
+        {}
+      ],
+      "ロードバランサ": [
+        "https://manual.sakura.ad.jp/cloud/network/load-balancer.html",
+        {}
+      ],
+      "GSLB（広域負荷分散）": [
+        "https://manual.sakura.ad.jp/cloud/appliance/gslb/index.html",
+        {}
+      ],
+      "DNS(アプライアンス)": [
+        "https://manual.sakura.ad.jp/cloud/appliance/dns/index.html",
+        {}
+      ],
+      "スイッチ, ルータ＋スイッチ": [
+        "https://manual.sakura.ad.jp/cloud/network/switch/index.html",
+        {
+          "スイッチ, ルータ＋スイッチとは": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "スイッチ, ルータ＋スイッチの作成・削除": [
+            "https://manual.sakura.ad.jp/cloud/router-switch.html",
+            {}
+          ],
+          "スタティックルート機能": [
+            "https://manual.sakura.ad.jp/cloud/static-routing.html",
+            {}
+          ],
+          "IPアドレスの逆引き設定": [
+            "https://manual.sakura.ad.jp/cloud/reverse-dns.html",
+            {}
+          ],
+          "IPv6アドレス": [
+            "https://manual.sakura.ad.jp/cloud/ipv6.html",
+            {}
+          ],
+          "回線帯域の変更": [
+            "https://manual.sakura.ad.jp/cloud/bandwidth-change.html",
+            {}
+          ]
+        }
+      ],
+      "パケットフィルタ": [
+        "https://manual.sakura.ad.jp/cloud/network/packet-filter.html",
+        {}
+      ],
+      "相互接続サービス": [
+        "https://manual.sakura.ad.jp/cloud/product-interconnection-service.html",
+        {
+          "ブリッジ接続": [
+            "https://manual.sakura.ad.jp/cloud/network/bridge.html",
+            {}
+          ],
+          "ローカルルータ": [
+            "https://manual.sakura.ad.jp/cloud/network/localrouter.html",
+            {}
+          ],
+          "プライベートリンク": [
+            "https://manual.sakura.ad.jp/cloud/network/privatelink/index.html",
+            {}
+          ],
+          "プライベートリンク for BBIX": [
+            "https://manual.sakura.ad.jp/cloud/network/privatelink/privatelinkforbbix.html",
+            {}
+          ],
+          "ハイブリッド接続": [
+            "https://manual.sakura.ad.jp/cloud/network/hybridconnect/hybridconnect.html",
+            {}
+          ],
+          "AWS接続オプション": [
+            "https://manual.sakura.ad.jp/cloud/network/aws-connect.html",
+            {}
+          ]
+        }
+      ],
+      "VPCルータ": [
+        "https://manual.sakura.ad.jp/cloud/network/vpc-router/index.html",
+        {
+          "VPCルータとは": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "新規作成": [
+            "https://manual.sakura.ad.jp/cloud/vpc-create.html",
+            {}
+          ],
+          "インターフェース設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-interface.html",
+            {}
+          ],
+          "NAT設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-nat.html",
+            {}
+          ],
+          "DHCP設定、DNSフォワーディングサーバ機能の設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-dhcp.html",
+            {}
+          ],
+          "リモートアクセス(VPN)設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-remoteaccess.html",
+            {}
+          ],
+          "サイト間VPN設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-site-to-site-vpn.html",
+            {}
+          ],
+          "サイト間VPN アプライアンス側設定例": [
+            "https://manual.sakura.ad.jp/cloud/vpc-site-to-site-vpn-appliance-settings.html",
+            {}
+          ],
+          "WireGuardサーバ機能": [
+            "https://manual.sakura.ad.jp/cloud/vpc-wireguard.html",
+            {}
+          ],
+          "ファイアウォール設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-firewall.html",
+            {}
+          ],
+          "スタティックルート設定": [
+            "https://manual.sakura.ad.jp/cloud/vpc-static-route.html",
+            {}
+          ],
+          "その他の機能": [
+            "https://manual.sakura.ad.jp/cloud/vpc-functions.html",
+            {}
+          ]
+        }
+      ],
+      "接続マップ表示": [
+        "https://manual.sakura.ad.jp/cloud/network/map.html",
+        {}
+      ],
+      "インターネット接続制限オプション": [
+        "https://manual.sakura.ad.jp/cloud/network/global-network-disconnect-option.html",
+        {}
+      ]
+    }
+  ],
+  "監視": [
+    "https://manual.sakura.ad.jp/cloud/product-monitoring.html",
+    {
+      "シンプル監視": [
+        "https://manual.sakura.ad.jp/cloud/appliance/simplemonitor/index.html",
+        {}
+      ],
+      "モニタリングスイート": [
+        "https://manual.sakura.ad.jp/cloud/appliance/monitoring-suite/index.html",
+        {}
+      ]
+    }
+  ],
+  "コンテナとイメージ": [
+    "https://manual.sakura.ad.jp/cloud/product-containers-and-images.html",
+    {
+      "コンテナレジストリ": [
+        "https://manual.sakura.ad.jp/cloud/appliance/container-registry/index.html",
+        {}
+      ],
+      "パブリックアーカイブ・ISO": [
+        "https://manual.sakura.ad.jp/cloud/server/os-packages/archive-iso/index.html",
+        {
+          "提供中のアーカイブ・ISO イメージ一覧": [
+            "https://manual.sakura.ad.jp/cloud/list.html",
+            {}
+          ],
+          "CentOS Stream 8 (20201203) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos-stream8-releasenote.html",
+            {}
+          ],
+          "CentOS Stream 8 (20201203) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos-stream8-kickstart.html",
+            {}
+          ],
+          "CentOS 7.5 (1804) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos75-releasenote.html",
+            {}
+          ],
+          "CentOS 7.5 (1804) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos75-kickstart.html",
+            {}
+          ],
+          "CentOS 7.6 (1810) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos76-releasenote.html",
+            {}
+          ],
+          "CentOS 7.6 (1810) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos76-kickstart.html",
+            {}
+          ],
+          "CentOS 7.7 (1908) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos77-releasenote.html",
+            {}
+          ],
+          "CentOS 7.7 (1908) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos77-kickstart.html",
+            {}
+          ],
+          "CentOS 7.8 (2003) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos78-releasenote.html",
+            {}
+          ],
+          "CentOS 7.8 (2003) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos78-kickstart.html",
+            {}
+          ],
+          "CentOS 7.9 (2009) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos79-releasenote.html",
+            {}
+          ],
+          "CentOS 7.9 (2009) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos79-kickstart.html",
+            {}
+          ],
+          "CentOS 8.0 (1905) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos80-releasenote.html",
+            {}
+          ],
+          "CentOS 8.0 (1905) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos80-kickstart.html",
+            {}
+          ],
+          "CentOS 8.1 (1911) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos81-releasenote.html",
+            {}
+          ],
+          "CentOS 8.1 (1911) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos81-kickstart.html",
+            {}
+          ],
+          "CentOS 8.2 (2004) 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/centos82-releasenote.html",
+            {}
+          ],
+          "CentOS 8.2 (2004) 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/centos82-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 8.3 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma83-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 8.3 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma83-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 8.4 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma84-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 8.4 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma84-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 8.7 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma87-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 8.7 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma87-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 8.8 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma88-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 8.8 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma88-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 8.9 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma89-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 8.9 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma89-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 8.10 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma810-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 8.10 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma810-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 9.0 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma90-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 9.0 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma90-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 9.1 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma91-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 9.1 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma91-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 9.2 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma92-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 9.2 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma92-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 9.3 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma93-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 9.3 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma93-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 9.4 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma94-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 9.4 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma94-kickstart.html",
+            {}
+          ],
+          "AlmaLinux 9.5 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/alma95-releasenote.html",
+            {}
+          ],
+          "AlmaLinux 9.5 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/alma95-kickstart.html",
+            {}
+          ],
+          "RockyLinux 8.7 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky87-releasenote.html",
+            {}
+          ],
+          "RockyLinux 8.7 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky87-kickstart.html",
+            {}
+          ],
+          "RockyLinux 8.8 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky88-releasenote.html",
+            {}
+          ],
+          "RockyLinux 8.8 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky88-kickstart.html",
+            {}
+          ],
+          "RockyLinux 8.9 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky89-releasenote.html",
+            {}
+          ],
+          "RockyLinux 8.9 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky89-kickstart.html",
+            {}
+          ],
+          "RockyLinux 8.10 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky810-releasenote.html",
+            {}
+          ],
+          "RockyLinux 8.10 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky810-kickstart.html",
+            {}
+          ],
+          "RockyLinux 9.0 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky90-releasenote.html",
+            {}
+          ],
+          "RockyLinux 9.0 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky90-kickstart.html",
+            {}
+          ],
+          "RockyLinux 9.1 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky91-releasenote.html",
+            {}
+          ],
+          "RockyLinux 9.1 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky91-kickstart.html",
+            {}
+          ],
+          "RockyLinux 9.2 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky92-releasenote.html",
+            {}
+          ],
+          "RockyLinux 9.2 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky92-kickstart.html",
+            {}
+          ],
+          "RockyLinux 9.3 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky93-releasenote.html",
+            {}
+          ],
+          "RockyLinux 9.3 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky93-kickstart.html",
+            {}
+          ],
+          "RockyLinux 9.4 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky94-releasenote.html",
+            {}
+          ],
+          "RockyLinux 9.4 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky94-kickstart.html",
+            {}
+          ],
+          "RockyLinux 9.5 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/rocky95-releasenote.html",
+            {}
+          ],
+          "RockyLinux 9.5 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/rocky95-kickstart.html",
+            {}
+          ],
+          "Ubuntu Server 20.04.1 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu2004-releasenote.html",
+            {}
+          ],
+          "Ubuntu Server 20.04.6 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu20046-releasenote.html",
+            {}
+          ],
+          "Ubuntu Server 22.04.1 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu2204-releasenote.html",
+            {}
+          ],
+          "Ubuntu Server 22.04.4 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu22044-releasenote.html",
+            {}
+          ],
+          "Ubuntu Server 22.04.5 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu22045-releasenote.html",
+            {}
+          ],
+          "Ubuntu Server 24.04 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu2404-releasenote.html",
+            {}
+          ],
+          "Ubuntu Server 24.04.1 LTS 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/ubuntu24041-releasenote.html",
+            {}
+          ],
+          "Debian GNU/Linux 11.11 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/debian1111-releasenote.html",
+            {}
+          ],
+          "Debian GNU/Linux 12.7 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/debian127-releasenote.html",
+            {}
+          ],
+          "MIRACLE LINUX 9.0 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/miracle90-releasenote.html",
+            {}
+          ],
+          "MIRACLE LINUX 9.0 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/miracle90-kickstart.html",
+            {}
+          ],
+          "MIRACLE LINUX 9.2 64bit リリースノート": [
+            "https://manual.sakura.ad.jp/cloud/miracle92-releasenote.html",
+            {}
+          ],
+          "MIRACLE LINUX 9.2 64bit kickstart": [
+            "https://manual.sakura.ad.jp/cloud/miracle92-kickstart.html",
+            {}
+          ]
+        }
+      ],
+      "Windows Serverプラン": [
+        "https://manual.sakura.ad.jp/cloud/server/os-packages/windows-server-plan/index.html",
+        {
+          "Windows Serverプランとは": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "初期設定手順": [
+            "https://manual.sakura.ad.jp/cloud/windows-server-setup.html",
+            {}
+          ],
+          "リモートデスクトッププラン": [
+            "https://manual.sakura.ad.jp/cloud/windows-server-rds.html",
+            {}
+          ],
+          "SQL Server プラン": [
+            "https://manual.sakura.ad.jp/cloud/sqlserverplan.html",
+            {}
+          ]
+        }
+      ],
+      "SiteGuard Server Edition (WAF)": [
+        "https://manual.sakura.ad.jp/cloud/server/os-packages/siteguard-firewall.html",
+        {}
+      ],
+      "Sophos UTM": [
+        "https://manual.sakura.ad.jp/cloud/server/os-packages/sophosutm/index.html",
+        {
+          "Sophos UTM（総合脅威対策）": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "Sophos UTM リモートアクセス機能": [
+            "https://manual.sakura.ad.jp/cloud/remoteaccess.html",
+            {}
+          ],
+          "Sophos UTM サイト間VPN機能": [
+            "https://manual.sakura.ad.jp/cloud/site-to-site-vpn.html",
+            {}
+          ],
+          "設定代行サービス": [
+            "https://manual.sakura.ad.jp/cloud/sophos-settingservice.html",
+            {}
+          ],
+          "設定代行サービス（初期設定）": [
+            "https://manual.sakura.ad.jp/cloud/sophos-settingservice-init.html",
+            {}
+          ],
+          "設定代行サービス（リモートアクセス）": [
+            "https://manual.sakura.ad.jp/cloud/sophos-settingservice-remoteaccess.html",
+            {}
+          ],
+          "設定代行サービス（サイト間VPN）": [
+            "https://manual.sakura.ad.jp/cloud/sophos-settingservice-site-to-site-vpn.html",
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "セキュリティ": [
+    "https://manual.sakura.ad.jp/cloud/product-security.html",
+    {
+      "WebSite Scouter": [
+        "https://manual.sakura.ad.jp/cloud/security/websitescouter/about.html",
+        {}
+      ],
+      "SiteScan 2.0": [
+        "https://manual.sakura.ad.jp/cloud/security/sitescan2/about.html",
+        {}
+      ],
+      "KMS（Key Management Service）": [
+        "https://manual.sakura.ad.jp/cloud/appliance/kms/index.html",
+        {}
+      ],
+      "シークレットマネージャ": [
+        "https://manual.sakura.ad.jp/cloud/appliance/secretsmanager/index.html",
+        {}
+      ],
+      "クラウドHSM": [
+        "https://manual.sakura.ad.jp/cloud/appliance/cloudhsm/index.html",
+        {}
+      ]
+    }
+  ],
+  "アプリケーション連携": [
+    "https://manual.sakura.ad.jp/cloud/product-application-integration.html",
+    {
+      "シンプルMQ": [
+        "https://manual.sakura.ad.jp/cloud/appliance/simplemq/index.html",
+        {}
+      ],
+      "シンプル通知": [
+        "https://manual.sakura.ad.jp/cloud/appliance/simplenotification/index.html",
+        {
+          "通知先・通知先グループ": [
+            "https://manual.sakura.ad.jp/cloud/destination.html",
+            {}
+          ],
+          "通知API": [
+            "https://manual.sakura.ad.jp/cloud/api.html",
+            {}
+          ],
+          "通知履歴": [
+            "https://manual.sakura.ad.jp/cloud/history.html",
+            {}
+          ]
+        }
+      ],
+      "APIゲートウェイ": [
+        "https://manual.sakura.ad.jp/cloud/appliance/api-gateway/index.html",
+        {
+          "01 API Gateway 基本設定ガイド": [
+            "https://manual.sakura.ad.jp/cloud/basic.html",
+            {}
+          ],
+          "02 認証・認可設定ガイド": [
+            "https://manual.sakura.ad.jp/cloud/auth.html",
+            {}
+          ],
+          "03 リクエスト・レスポンス変換設定ガイド": [
+            "https://manual.sakura.ad.jp/cloud/settings.html",
+            {}
+          ],
+          "04 ドメイン・証明書設定ガイド": [
+            "https://manual.sakura.ad.jp/cloud/domain.html",
+            {}
+          ]
+        }
+      ],
+      "Workflows": [
+        "https://manual.sakura.ad.jp/cloud/appliance/workflows/index.html",
+        {
+          "APIリファレンス": [
+            "https://manual.sakura.ad.jp/cloud/reference-api.html",
+            {}
+          ],
+          "構文リファレンス": [
+            "https://manual.sakura.ad.jp/cloud/reference-syntax.html",
+            {}
+          ],
+          "式内関数リファレンス": [
+            "https://manual.sakura.ad.jp/cloud/reference-inline.html",
+            {}
+          ],
+          "callリファレンス": [
+            "https://manual.sakura.ad.jp/cloud/reference-call.html",
+            {}
+          ]
+        }
+      ],
+      "EventBus": [
+        "https://manual.sakura.ad.jp/cloud/appliance/eventbus/index.html",
+        {}
+      ],
+      "Add-on": [
+        "https://manual.sakura.ad.jp/cloud/manual-add-on.html",
+        {
+          "Add-onサービス": [
+            "https://manual.sakura.ad.jp/cloud/add-on/index.html",
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "その他": [
+    "https://manual.sakura.ad.jp/cloud/product-other.html",
+    {
+      "自動バックアップ": [
+        "https://manual.sakura.ad.jp/cloud/appliance/autobackup/index.html",
+        {}
+      ],
+      "ショートメッセージ": [
+        "https://manual.sakura.ad.jp/cloud/manual-shortmessage.html",
+        {
+          "ショートメッセージサービス": [
+            "https://manual.sakura.ad.jp/cloud/shortmessage/index.html",
+            {}
+          ],
+          "API使用例": [
+            "https://manual.sakura.ad.jp/cloud/shortmessage/api.html",
+            {}
+          ]
+        }
+      ],
+      "さくらのモノプラットフォーム": [
+        "https://manual.sakura.ad.jp/cloud/manual-iotpf.html",
+        {
+          "さくらのモノプラットフォームとは": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/about.html",
+            {}
+          ],
+          "ご利用の流れ": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/getting-started/index.html",
+            {}
+          ],
+          "プロジェクト": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/project/index.html",
+            {}
+          ],
+          "サービスアダプタ": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/service-adapter/index.html",
+            {}
+          ],
+          "デバイスアダプタ": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/device-adapter/index.html",
+            {}
+          ],
+          "ファイル送受信": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/file-transceiver/index.html",
+            {}
+          ],
+          "API使用例": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/api.html",
+            {}
+          ],
+          "最新基板資料": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/latest-pcb-files.html",
+            {}
+          ],
+          "よくある質問と回答": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/support.html",
+            {}
+          ],
+          "β版サービスについて": [
+            "https://manual.sakura.ad.jp/cloud/iotpf/about-beta.html",
+            {}
+          ]
+        }
+      ],
+      "セキュアモバイルコネクト": [
+        "https://manual.sakura.ad.jp/cloud/manual-mobile-connect.html",
+        {
+          "セキュアモバイルコネクトとは": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/about.html",
+            {}
+          ],
+          "サービス利用上の留意点": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/forusers.html",
+            {}
+          ],
+          "制約や上限": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/restrictions.html",
+            {}
+          ],
+          "ご利用の流れ": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/getting-started.html",
+            {}
+          ],
+          "モバイルゲートウェイ": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/mobile-gateway/index.html",
+            {}
+          ],
+          "SIM": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/sim/index.html",
+            {}
+          ],
+          "API使用例": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/api.html",
+            {}
+          ],
+          "SIMの仕様": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/simspec/index.html",
+            {}
+          ],
+          "データパック": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/datapack.html",
+            {}
+          ],
+          "動作確認済みデバイス": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/compatiblity/index.html",
+            {}
+          ],
+          "よくある質問と回答": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/support.html",
+            {}
+          ],
+          "通信ができないときのトラブルシューティングガイド": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/trouble-shooting.html",
+            {}
+          ],
+          "β版サービスについて": [
+            "https://manual.sakura.ad.jp/cloud/mobile-connect/about-beta.html",
+            {}
+          ]
+        }
+      ],
+      "SendGrid(メール配信サービス)": [
+        "https://manual.sakura.ad.jp/cloud/appliance/sendgrid/index.html",
+        {}
+      ],
+      "Labプロダクト": [
+        "https://manual.sakura.ad.jp/cloud/manual-lab.html",
+        {
+          "Labプロダクトとは": [
+            "https://manual.sakura.ad.jp/cloud/lab/about.html",
+            {}
+          ],
+          "エンハンスドデータベース(Lab)": [
+            "https://manual.sakura.ad.jp/cloud/appliance/enhanced-db/index.html",
+            {}
+          ],
+          "マネージドPKI(Lab)": [
+            "https://manual.sakura.ad.jp/cloud/appliance/managed-pki/index.html",
+            {}
+          ]
+        }
+      ],
+      "マイグレーションサービス(移行ツール)": [
+        "https://manual.sakura.ad.jp/cloud/server/migration-service-tool.html",
+        {}
+      ],
+      "マイグレーションサービス(移行支援サービス)": [
+        "https://manual.sakura.ad.jp/cloud/server/migration-service-si.html",
+        {}
+      ]
+    }
+  ],
+  "操作・各種設定マニュアル": [
+    "https://manual.sakura.ad.jp/cloud/manual-settings.html",
+    {
+      "コントロールパネル": [
+        "https://manual.sakura.ad.jp/cloud/controlpanel/index.html",
+        {
+          "コントロールパネルの基本操作": [
+            "https://manual.sakura.ad.jp/cloud/general.html",
+            {}
+          ],
+          "コントロールパネルログイン設定": [
+            "https://manual.sakura.ad.jp/cloud/login.html",
+            {}
+          ],
+          "設定": [
+            "https://manual.sakura.ad.jp/cloud/settings/index.html",
+            {}
+          ],
+          "ユーザ・プロジェクト機能": [
+            "https://manual.sakura.ad.jp/cloud/user-project.html",
+            {}
+          ],
+          "ユーザグループ機能": [
+            "https://manual.sakura.ad.jp/cloud/user-group.html",
+            {}
+          ],
+          "アクセスレベル": [
+            "https://manual.sakura.ad.jp/cloud/access-level.html",
+            {}
+          ],
+          "ユーザパスワードの再設定": [
+            "https://manual.sakura.ad.jp/cloud/user-password.html",
+            {}
+          ],
+          "契約リソース": [
+            "https://manual.sakura.ad.jp/cloud/dashboard.html",
+            {}
+          ],
+          "利用料金管理": [
+            "https://manual.sakura.ad.jp/cloud/../payment/cost-management.html",
+            {}
+          ],
+          "アクティビティグラフ": [
+            "https://manual.sakura.ad.jp/cloud/activity.html",
+            {}
+          ],
+          "イベントログ": [
+            "https://manual.sakura.ad.jp/cloud/eventlog/index.html",
+            {}
+          ],
+          "ホストメンテナンス予定確認画面": [
+            "https://manual.sakura.ad.jp/cloud/hostmaintenance.html",
+            {}
+          ],
+          "サウンド通知機能": [
+            "https://manual.sakura.ad.jp/cloud/sound-notice.html",
+            {}
+          ],
+          "国際化対応": [
+            "https://manual.sakura.ad.jp/cloud/i18n.html",
+            {}
+          ],
+          "シングルサーバコントロールパネル": [
+            "https://manual.sakura.ad.jp/cloud/singleserver.html",
+            {}
+          ],
+          "タグ機能": [
+            "https://manual.sakura.ad.jp/cloud/tag.html",
+            {}
+          ],
+          "アイコン": [
+            "https://manual.sakura.ad.jp/cloud/icon.html",
+            {}
+          ]
+        }
+      ],
+      "スタートアップスクリプト": [
+        "https://manual.sakura.ad.jp/cloud/startup-script/index.html",
+        {
+          "スタートアップスクリプトとは": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "パブリックスタートアップスクリプト": [
+            "https://manual.sakura.ad.jp/cloud/public-script.html",
+            {}
+          ],
+          "主なパブリックスタートアップクリプトの解説": [
+            "https://manual.sakura.ad.jp/cloud/public-script/details.html",
+            {}
+          ]
+        }
+      ],
+      "リソースマネージャー": [
+        "https://manual.sakura.ad.jp/cloud/resource-manager/index.html",
+        {
+          "リソースマネージャーとは": [
+            "https://manual.sakura.ad.jp/cloud/about.html",
+            {}
+          ],
+          "コントロールパネルと機能詳細": [
+            "https://manual.sakura.ad.jp/cloud/controlpanel.html",
+            {}
+          ],
+          "テンプレート構成例": [
+            "https://manual.sakura.ad.jp/cloud/templates/index.html",
+            {}
+          ],
+          "よくある質問と回答": [
+            "https://manual.sakura.ad.jp/cloud/questions.html",
+            {}
+          ],
+          "リソースマネージャーと Terraform の違い": [
+            "https://manual.sakura.ad.jp/cloud/terraform.html",
+            {}
+          ],
+          "サポート範囲および関連情報について": [
+            "https://manual.sakura.ad.jp/cloud/support.html",
+            {}
+          ]
+        }
+      ],
+      "API": [
+        "https://manual.sakura.ad.jp/cloud/api/index.html",
+        {
+          "APIキー": [
+            "https://manual.sakura.ad.jp/cloud/apikey.html",
+            {}
+          ],
+          "請求関連API": [
+            "https://manual.sakura.ad.jp/cloud/billapi.html",
+            {}
+          ],
+          "ホストメンテナンス取得API": [
+            "https://manual.sakura.ad.jp/cloud/hostmaintenanceapi.html",
+            {}
+          ]
+        }
+      ],
+      "時刻の同期": [
+        "https://manual.sakura.ad.jp/cloud/support/ntp.html",
+        {}
+      ],
+      "暗号化": [
+        "https://manual.sakura.ad.jp/cloud/support/crypto.html",
+        {}
+      ],
+      "データのバックアップ": [
+        "https://manual.sakura.ad.jp/cloud/support/backup.html",
+        {}
+      ],
+      "認証": [
+        "https://manual.sakura.ad.jp/cloud/support/auth.html",
+        {}
+      ],
+      "リージョン・ゾーン": [
+        "https://manual.sakura.ad.jp/cloud/support/region-zone.html",
+        {}
+      ],
+      "Sandbox(テスト用ゾーン)": [
+        "https://manual.sakura.ad.jp/cloud/server/sandbox.html",
+        {}
+      ],
+      "BCP・DR": [
+        "https://manual.sakura.ad.jp/cloud/support/bcp-dr.html",
+        {}
+      ],
+      "オートスケール": [
+        "https://manual.sakura.ad.jp/cloud/autoscale/index.html",
+        {
+          "オートスケール": [
+            "https://manual.sakura.ad.jp/cloud/autoscale.html",
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "アプライアンスの基本操作": [
+    "https://manual.sakura.ad.jp/cloud/appliance/detail.html",
+    {
+      "アプライアンス": [
+        "https://manual.sakura.ad.jp/cloud/../support/technical/appliance.html",
+        {}
+      ]
+    }
+  ],
+  "契約・お支払い": [
+    "https://manual.sakura.ad.jp/cloud/manual-payment.html",
+    {
+      "さくらのクラウド ご利用開始手順": [
+        "https://manual.sakura.ad.jp/cloud/payment/signup.html",
+        {}
+      ],
+      "ご利用料金の確認": [
+        "https://manual.sakura.ad.jp/cloud/payment/invoice.html",
+        {}
+      ],
+      "利用料金管理": [
+        "https://manual.sakura.ad.jp/cloud/payment/cost-management.html",
+        {}
+      ],
+      "料金アラート機能": [
+        "https://manual.sakura.ad.jp/cloud/payment/alert.html",
+        {}
+      ],
+      "ご利用料金の計算方法": [
+        "https://manual.sakura.ad.jp/cloud/payment/server-charge.html",
+        {}
+      ],
+      "クーポンの利用": [
+        "https://manual.sakura.ad.jp/cloud/payment/coupon.html",
+        {}
+      ],
+      "割引パスポート": [
+        "https://manual.sakura.ad.jp/cloud/payment/passport.html",
+        {}
+      ],
+      "プリペイド": [
+        "https://manual.sakura.ad.jp/cloud/payment/prepaid.html",
+        {}
+      ],
+      "作成可能なリソースの上限": [
+        "https://manual.sakura.ad.jp/cloud/payment/resource-limit.html",
+        {}
+      ],
+      "サービス(プロジェクト)譲渡": [
+        "https://manual.sakura.ad.jp/cloud/payment/joto.html",
+        {}
+      ]
+    }
+  ],
+  "マーケットプレイス": [
+    "https://manual.sakura.ad.jp/cloud/manual-marketplace.html",
+    {
+      "マーケットプレイス": [
+        "https://manual.sakura.ad.jp/cloud/marketplace/about.html",
+        {}
+      ]
+    }
+  ],
+  "パートナー": [
+    "https://manual.sakura.ad.jp/cloud/manual-partner.html",
+    {
+      "パートナーとは": [
+        "https://manual.sakura.ad.jp/cloud/partner/about.html",
+        {}
+      ]
+    }
+  ]
+}

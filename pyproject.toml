@@ -1,25 +1,34 @@
 [project]
-name = "py-template"
+name = "sacloud-mcp"
 version = "0.1.0"
-description = "Python template for sacloud"
+description = "MCP Server for sakura cloud"
 authors = [{name = "SAKURA internet Inc.", email = "oss-dev@sakura.ad.jp"}]
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "boto3>=1.38.43",
+    "bs4>=0.0.2",
+    "fastmcp>=2.9.0",
+    "html-to-markdown>=1.4.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.4",
+    "python-dotenv>=1.0.0",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
 ]
 
 [project.urls]
-Source = "https://github.com/sacloud/py-template"
+Source = "https://github.com/sacloud/mcp-sakura-cloud"
 
 [dependency-groups]
 dev = [
     "lefthook>=1.11.14",
     "pytest>=8.4.1",
+    "pytest-asyncio>=1.0.0",
     "ruff>=0.12.0",
 ]
 
@@ -36,8 +45,8 @@ line-length = 100
 target-version = "py312"
 exclude = [".git", ".github", ".venv", ".vscode", ".ruff_cache"]
 
+# TODO: select等を適切に設定する
 [tool.ruff.lint]
-select = ["E4", "E7", "E9", "F", "N", "B", "PIE794"] # selectの内容はプロダクト毎に適切なのを設定する
 ignore = [
     "D1",    # undocumented
     "D203",  # one blank line before class
@@ -56,3 +65,5 @@ convention = "google"
 
 [tool.pytest.ini_options]
 xfail_strict = true
+pythonpath = ["src"]
+testpaths = ["tests"]
