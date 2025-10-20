@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.11"
 
 [[package]]
@@ -248,14 +248,13 @@ wheels = [
 
 [[package]]
 name = "html-to-markdown"
-version = "1.4.0"
+version = "2.3.4"
 source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "beautifulsoup4" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/67/62/c48b6e6cff38b9983544bef286f15f0ad249e8a5a09c6705a372bc0badd7/html_to_markdown-1.4.0.tar.gz", hash = "sha256:aced18e152f92c5a875e1ad2902b0c27527fda0b50376671941e3e399cf4d236", size = 16233, upload-time = "2025-06-23T15:52:06.059Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/43/e0/0a67404eefc49cd97565e8fe8739c4a24d754a4047cc1bdd262e5eadd467/html_to_markdown-2.3.4.tar.gz", hash = "sha256:6f2fd7e0a2849963255810644c23c4032aede06e4c31c4e1802a004e908f8b7c", size = 1906082, upload-time = "2025-10-14T17:20:33.047Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bd/ac/38f0f75c8266f2598914f2118371d05faf6b37a5b2bd27c49135630254ba/html_to_markdown-1.4.0-py3-none-any.whl", hash = "sha256:0e3117740d3c92887995c5a251b52a9dbe9f16caaaca56bdf100fe01b227c70b", size = 15451, upload-time = "2025-06-23T15:52:04.6Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/fe/706353b0b3216d88a9908072a34e2064ce22baae44cea65f9fcc67f65489/html_to_markdown-2.3.4-cp310-abi3-macosx_11_0_arm64.whl", hash = "sha256:b05e846992f4c9baa7388db947beb4558a7a5242138969e2cc7585c9fd7173e7", size = 4809869, upload-time = "2025-10-14T17:20:27.149Z" },
+    { url = "https://files.pythonhosted.org/packages/89/1e/db150654599197e750d806afdc1b9d71d5c4a98a245b44435c17691f97ca/html_to_markdown-2.3.4-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:b0950d9f1549dfeff3489c14f2060676f9a2cea86ef2255b583ff7d497ce31b6", size = 5331237, upload-time = "2025-10-14T17:20:29.324Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/fc/281bec596011114380e57d67d1fbc37bf1b53e86b52fcfa74cca6feb6a65/html_to_markdown-2.3.4-cp310-abi3-win_amd64.whl", hash = "sha256:5a176471b518a8ab3cb093d50c324fa9956b3688911fbd07d01e3f8a627f7c07", size = 5080125, upload-time = "2025-10-14T17:20:31.131Z" },
 ]
 
 [[package]]
@@ -367,47 +366,6 @@ wheels = [
 cli = [
     { name = "python-dotenv" },
     { name = "typer" },
-]
-
-[[package]]
-name = "mcp-sakura-cloud"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "boto3" },
-    { name = "bs4" },
-    { name = "fastmcp" },
-    { name = "html-to-markdown" },
-    { name = "httpx" },
-    { name = "mcp", extra = ["cli"] },
-    { name = "python-dotenv" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "lefthook" },
-    { name = "pytest" },
-    { name = "pytest-asyncio" },
-    { name = "ruff" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "boto3", specifier = ">=1.38.43" },
-    { name = "bs4", specifier = ">=0.0.2" },
-    { name = "fastmcp", specifier = ">=2.9.0" },
-    { name = "html-to-markdown", specifier = ">=1.4.0" },
-    { name = "httpx", specifier = ">=0.28.1" },
-    { name = "mcp", extras = ["cli"], specifier = ">=1.9.4" },
-    { name = "python-dotenv", specifier = ">=1.0.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "lefthook", specifier = ">=1.11.14" },
-    { name = "pytest", specifier = ">=8.4.1" },
-    { name = "pytest-asyncio", specifier = ">=1.0.0" },
-    { name = "ruff", specifier = ">=0.12.0" },
 ]
 
 [[package]]
@@ -667,6 +625,47 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ed/5d/9dcc100abc6711e8247af5aa561fc07c4a046f72f659c3adea9a449e191a/s3transfer-0.13.0.tar.gz", hash = "sha256:f5e6db74eb7776a37208001113ea7aa97695368242b364d73e91c981ac522177", size = 150232, upload-time = "2025-05-22T19:24:50.245Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/18/17/22bf8155aa0ea2305eefa3a6402e040df7ebe512d1310165eda1e233c3f8/s3transfer-0.13.0-py3-none-any.whl", hash = "sha256:0148ef34d6dd964d0d8cf4311b2b21c474693e57c2e069ec708ce043d2b527be", size = 85152, upload-time = "2025-05-22T19:24:48.703Z" },
+]
+
+[[package]]
+name = "sacloud-mcp"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "boto3" },
+    { name = "bs4" },
+    { name = "fastmcp" },
+    { name = "html-to-markdown" },
+    { name = "httpx" },
+    { name = "mcp", extra = ["cli"] },
+    { name = "python-dotenv" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "lefthook" },
+    { name = "pytest" },
+    { name = "pytest-asyncio" },
+    { name = "ruff" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "boto3", specifier = ">=1.38.43" },
+    { name = "bs4", specifier = ">=0.0.2" },
+    { name = "fastmcp", specifier = ">=2.9.0" },
+    { name = "html-to-markdown", specifier = ">=1.4.0" },
+    { name = "httpx", specifier = ">=0.28.1" },
+    { name = "mcp", extras = ["cli"], specifier = ">=1.9.4" },
+    { name = "python-dotenv", specifier = ">=1.0.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "lefthook", specifier = ">=1.11.14" },
+    { name = "pytest", specifier = ">=8.4.1" },
+    { name = "pytest-asyncio", specifier = ">=1.0.0" },
+    { name = "ruff", specifier = ">=0.12.0" },
 ]
 
 [[package]]
